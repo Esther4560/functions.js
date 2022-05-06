@@ -25,8 +25,11 @@ ASSIGNMENT RULES
  Write a function called "crazySum" which receives two integers as parameters.
  It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
 */
+function crazySum(x, y) {
+    return x+y;
+}
+console.log(crazySum(2, 3))
 
-/* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
